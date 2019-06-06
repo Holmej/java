@@ -1,0 +1,26 @@
+    string->byte
+　　Byte static byte parseByte(String s)
+　　byte->string
+　　Byte static String toString(byte b)
+　　char->string
+　　Character static String to String (char c)
+　　string->Short
+　　Short static Short parseShort(String s)
+　　Short->String
+　　Short static String toString(Short s)
+　　String->Integer
+　　Integer static int parseInt(String s)
+　　Integer->String
+　　Integer static String tostring(int i)
+　　String->Long
+　　Long static long parseLong(String s)
+　　Long->String
+　　Long static String toString(Long i)
+　　String->Float
+　　Float static float parseFloat(String s)
+　　Float->String
+　　Float static String toString(float f)
+　　String->Double
+　　Double static double parseDouble(String s)
+　　Double->String
+    Double static String toString(Double d)

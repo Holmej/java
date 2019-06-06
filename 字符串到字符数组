@@ -1,0 +1,12 @@
+方法一：
+String str = "123abc";
+    	char[] ar = str.toCharArray();//char数组
+    	for(int i =0;i<ar.length;i++){
+    		System.out.println(ar[i]);//1 2 3 a b c
+    	}
+方法二：
+	String str = "123abc";
+    	String[] arr = str.split("");
+    	for(int i =0;i<arr.length;i++){//String数组，不过arr[0]为空
+    	      System.out.println(arr[i]);//空  1 2 3 a b c
+    	}

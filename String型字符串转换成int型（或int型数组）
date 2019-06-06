@@ -1,0 +1,24 @@
+•	转换成int型数组代码实现
+方法一：
+Scanner sc = new Scanner(System.in);
+String inputString=sc.nextLine();    
+int num[]=new int[inputString.length()];
+    for(int i=0;i<inputString.length();i++) {
+        num[i]=Integer.parseInt(inputString.substring(i, i + 1));//substring是找出包含起始位置，不包含结束位置，到结束位置的前一位的子串
+    }
+    for(int i:arr)//输出数组arr
+        System.out.print(i+" ");
+方法二：（此方法适用于输入时是4，2…….有 “，”隔开）
+        Scanner sc = new Scanner(System.in);
+        String inputString=sc.nextLine();
+        //字符串转int型数组
+        String stringArray[]=inputString.split(",");
+        int num[]=new int[stringArray.length];
+        for(int i=0;i<stringArray.length;i++) {
+            num[i]=Integer.parseInt(stringArray[i]); 
+//            System.out.print(num[i]+" ");
+            }
+•	转换成int型代码实现
+String str = "69211685";
+    int a = Integer.parseInt(str);
+    System.out.print(a);
